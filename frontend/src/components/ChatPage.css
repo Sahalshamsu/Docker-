@@ -1,0 +1,85 @@
+/* Container */
+.chat-container {
+    width: 400px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Join Section */
+.join-box {
+    border: 2px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.join-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.join-box button {
+    padding: 10px 20px;
+    border: none;
+    background: royalblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.join-box button:hover {
+    background: #003d99;
+}
+
+/* Chat Section */
+.chat-box {
+    border: 2px solid #444;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #fafafa;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message Input + Send Button */
+.message-input {
+    width: 75%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.send-btn {
+    padding: 10px 20px;
+    margin-left: 5px;
+    background: seagreen;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background: #126e44;
+}
+
+/* Chat message bubble */
+.chat-message {
+    text-align: left;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 6px;
+    background: #e6e6e6;
+}
+
+.chat-message strong {
+    color: #333;
+}
