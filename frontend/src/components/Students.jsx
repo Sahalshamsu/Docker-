@@ -112,7 +112,7 @@ function Students() {
               <th>Name</th>
               <th>Age</th>
               <th>Course</th>
-              <th>Roll No</th>
+              <th>Roll Number</th>
             </tr>
           </thead>
 
