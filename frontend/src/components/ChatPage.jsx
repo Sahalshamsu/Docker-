@@ -45,7 +45,7 @@ export default function ChatPage() {
     <div className="chat-container">
         {!joined ? (
             <div className="join-box">
-                <h2>Join Chat Room</h2>
+                <h2>Joinnn Chat Room</h2>
 
                 <input
                     className="input-field"
