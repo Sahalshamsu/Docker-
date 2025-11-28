@@ -108,7 +108,7 @@ function Project() {
 
    
       <div className="card p-4 mb-4 shadow-sm">
-        <h3 className="mb-3">Search Projects</h3>
+        <h3 className="mb-3">Search All Projects</h3>
 
         <div className="d-flex gap-3">
           <input
